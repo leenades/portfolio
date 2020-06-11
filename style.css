@@ -1,0 +1,244 @@
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif !important;
+}
+.div-nav{
+    background-color: #044355;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 99999999;
+    width: 100%;
+}
+.div-nav a{
+    padding: 10px 25px;
+    color: white !important;
+}
+.div-nav a:hover{
+    background-color: rgb(92, 133, 161);
+    transition: all .3s ease;
+    color: #c60021 !important;
+    cursor: pointer;
+}
+
+.pp-image{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 !important;
+}
+section.header{
+    background-image: url("bg2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header .pp-image img{
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    right: 25%;
+}
+.header .pp-info .btn-gettoknowme {
+    background: #d7dad8;
+    border: 1px solid #d7dad8;
+    height: 10%;
+    width: 40%;
+    margin-top: 3%;
+}
+.header .pp-info .btn-gettoknowme:hover{
+    background-color: #736f6f;
+    border-color: #736f6f;
+    transition: all .3s ease;
+    color: #fff !important;
+} 
+.header .intro-text{
+    top: 25%;
+    padding: 0;
+}
+
+.colored{
+    color: #c60021
+}
+.colored-white{
+    color: white !important;
+}
+section.header{
+    background-color: #e3e3e3;
+    height: 75vh;
+}
+section.uiux-extended{
+    padding-bottom: 12%;
+}
+section.uiux-extended .col{
+    background-color: #e3e0cf;
+    margin-right: 3%;
+    box-shadow: 1px 1px 20px 6px rgb(165, 175, 174);
+    padding: 12px;
+    transition: transform .7s;
+    position: relative;
+}
+section.uiux-extended .col:hover{
+    transform: scale(1.2);
+    z-index: 9;
+    opacity: 1 !important;
+}
+section.uiux-extended .col > img{
+    float: right;
+}
+section.uiux-extended .col > p{
+    width: 50%;
+    margin: 0;
+    height: 0;
+}
+section.uiux-extended .row-uxui{
+    position: relative;
+    top: 40px;
+}
+section.uiux-extended .row-uxui:hover .col{
+    opacity: .3;
+}
+section.uiux-extended .col .btn-downloadable{
+   position: absolute;
+   bottom: 14px;
+}
+section.header .pp-info, .pp-info-row {
+    height: 100%;
+}
+section.skills, section.recent-projects, section.uiux-extended{
+    background: #9fa8a36b;
+    padding-top: 2%;
+}
+.section-header {
+    justify-content: center;
+}
+.section-header h2{
+    margin: 3% 0;
+    font-size: 30px;
+    position: relative;
+}
+.section-header h2::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    left: -110px;
+    height: 2px;
+    background: #636363;
+}
+.section-header h2::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    top: 20px;
+    right: -110px;
+    height: 2px;
+    background: #636363;
+}
+.row .cardscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.maincontainer{
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin: 3.5%;
+}
+.thecard{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 1.0s ease;
+    text-align: center;
+    
+}
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+.thefront, .theback{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #e3e0cf;
+    border-radius: 8%;
+    box-shadow: 1px 1px 20px 6px rgb(165, 175, 174);
+}
+.theback{
+    transform: rotateY(180deg);
+    padding-top: 50px;
+}
+.theback p{
+    margin: 0 12px;
+    
+}
+.theback .list-of-skills {
+    font-size: 14px !important;
+}
+.recent-projects .theback > a{
+    position: relative;
+    bottom: -35px;
+}
+
+.thefront img{
+    padding: 12px;
+    position: relative;
+    top: 40px;
+}
+.thefront h6{
+    position: relative;
+    bottom: -50px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-linkedin{
+  background: #55ACEE;
+  color: white;
+}
+/* GitHub */
+.fa-github {
+  background: rgb(92, 88, 94);
+  color: white;
+}
+footer{
+    background-color:rgba(29, 26, 26, 0.91);
+    color: white !important;
+}
+footer .col.socials{
+    display: flex;
+    justify-content: center;
+
+}
+div.row-email{ 
+    display: block;
+    text-align: center;
+    padding: 2%;
+}
+div.row-email a{
+    color: white !important;
+}
+div.row-email a:hover{
+    opacity: .3;
+    text-decoration: none;
+}
